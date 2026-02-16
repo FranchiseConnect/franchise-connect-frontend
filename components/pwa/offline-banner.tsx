@@ -27,7 +27,7 @@ export default function OfflineBanner() {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-amber-500 text-white py-2 px-4 text-center text-sm font-medium flex items-center justify-center gap-2">
       <WifiOff size={16} />
-      <span>You're offline. Some features may be limited.</span>
+      <span>You&apos;re offline. Some features may be limited.</span>
     </div>
   );
 }
